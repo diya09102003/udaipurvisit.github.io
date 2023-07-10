@@ -1,0 +1,23 @@
+*{
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url(../images/submit.jpg);
+        background-size: cover;
+    }
+    .submit{color:white;
+        height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .submit a i{
+        color: rgb(221, 224, 226);
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+    a i:hover{
+        color:rgb(90, 185, 185);
+    }

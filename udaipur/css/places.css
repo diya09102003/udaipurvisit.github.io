@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+        margin-top: 0;
+        background-image: url(../images/places.jpg);
+        background-size:contain;
+        background-color:rgba(247, 245, 245, 0.63);
+    }
+
+    h1 {
+        color: rgb(7, 60, 87);
+        font-size: 3rem;
+        margin-left: 3rem;
+        margin-top: 0;
+    }
+
+    .udaipur {
+        display: flex;
+    }
+    .city{color:black;
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+        margin:0 ;
+    }
+    .palace{
+        padding:  1rem 2rem;
+    }
+    footer{
+        color: rgb(53, 137, 179);
+        background-color: rgb(9, 0, 0);
+        font-size: 1.2rem;
+        height:6rem;
+        text-align: center;
+        padding:1rem 2rem;
+    }
+    footer a i{
+        color: rgb(53, 137, 179);
+        text-decoration: none;
+        font-size: 2rem;
+    }

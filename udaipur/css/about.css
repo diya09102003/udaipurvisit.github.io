@@ -1,0 +1,29 @@
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/about2.jpg);
+    background-size: cover;
+    background-repeat: repeat; 
+}
+     main{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height:100vh;
+     }
+    .about{
+        color:rgb(173, 180, 128);
+        background-color: rgba(0, 0, 0, 0.514);
+        font-size:2rem; 
+        text-align: center;
+    }
+    .udai{
+        color:rgba(255, 255, 255, 0.698);
+        font-size:1.7rem; 
+        text-align: justify;
+        padding:5rem 4rem;
+    }
+  
